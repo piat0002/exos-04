@@ -37,5 +37,5 @@ for ($j=0; $j < 100; $j++) {
 echo "\nMoyenne de la valeur de mes ". strval(count($moutons))." moutons : ".strval(getmoyenne($moutons));
 echo "\n";
 
-//var_dump($moutons)
+
 ?>

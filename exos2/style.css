@@ -1,6 +1,6 @@
 .accordion {
-    background-color: #0066cc;
-    color: #FFF;
+    background-color: #ccc;
+    color: #000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -10,21 +10,26 @@
     font-size: 15px;
     transition: 0.4s;
 }
-  
-.active, .accordion:hover {
-    background-color: #2288dd;
+.accordion:hover {
+    background-color: #aaa;
+}
+.active {
+    background-color: #2288dd!important;
+    color: #FFF;
 }
   
 .accordion:before {
     content: '\25B6';
-    color: #FFF;
+    color: #000;
     font-weight: bold;
     float: left;
     margin-right: 5px;
+    margin-top: -2px;
 }
   
 .active:before {
     content: "\25BC";
+    color: #FFF;
 }
   
 .panel {
