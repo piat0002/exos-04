@@ -17,7 +17,7 @@ $moutons = [['Danny', 75], ['Richard',60]];
 
 // J'ajoute un mouton
 array_push($moutons, ['Gérard',120]);
-echo "Moyenne de la valeur de mes ". count($moutons)." moutons : ".getmoyenne($moutons);
+echo "Moyenne de la valeur de mes ". strval(count($moutons))." moutons : ". strval(getmoyenne($moutons));
 
 // Ajout de 100 moutons aléatoires
 $chaine = "abcdefghijklmnpqrstuvwxyABCDEFGHIJKLMNOPQRSUTVWXYZ";
@@ -34,7 +34,7 @@ for ($j=0; $j < 100; $j++) {
 }
 
 // Je calcule à nouveau la moyenne
-echo "\nMoyenne de la valeur de mes ". count($moutons)." moutons : ".getmoyenne($moutons);
+echo "\nMoyenne de la valeur de mes ". strval(count($moutons))." moutons : ".strval(getmoyenne($moutons));
 echo "\n";
 
 //var_dump($moutons)
