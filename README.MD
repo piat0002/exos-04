@@ -1,1 +1,1 @@
-Test exercise for a company
+Exercise test for a company
